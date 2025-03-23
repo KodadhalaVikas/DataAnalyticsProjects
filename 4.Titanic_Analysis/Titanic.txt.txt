@@ -1,0 +1,83 @@
+Dataset: Titanic.csv
+Description:
+Basic Information:
+Rows: 891 (Passengers)
+
+Columns: 8 (Features)
+
+Missing values: 0 (No missing values in the dataset)
+
+Column Description:
+Survived
+
+Pclass
+
+Name
+
+Sex
+
+Age
+
+Siblings/Spouses Aboard
+
+Parents/Children Aboard
+
+Fare (Fare paid by passengers)
+Observations:
+Passengers' Distribution:
+Gender Distribution:
+The dataset has more male passengers than females.
+
+Male ~ 75%, Female ~ 25% (approx).
+
+Age Distribution:
+Average passenger age is 30-31 years.
+
+Majority of passengers are aged between 20 to 40.
+
+Survival Insights:
+38.6% of passengers survived, while 61.4% did not.
+
+Survival by Gender:
+Females had a highly significant higher survival rate (74%) compared to males (~19%).
+
+Building Logistic Regression on Titanic Dataset
+Dataset: Titanic.csv
+
+Dataset Description:
+Basic Description:
+Rows: 877 (Passengers)
+
+Columns: 8 features
+
+Missing Values: 0 (No missing values in the dataset)
+
+Column Description:
+Survived → (1 = Survived, 0 = Did not survive)
+
+Pclass → Passenger class (1,2,3)
+
+Name → Full name of the passenger
+
+Sex → Gender of passengers (M/F)
+
+Age → Age of passengers (in years)
+
+Siblings/Spouse Aboard
+
+Parents/Children Aboard
+
+Fare
+
+Observations:
+This week contains data preprocessing steps such as:
+
+Dropping irrelevant columns
+
+Handling missing values by filling missing age with mean
+
+One-hot encoding used for the Cabin column using pd.get_dummies()
+
+Model used: Logistic Regression
+
+Model uses Logistic Regression from sklearn.linear_model
