@@ -1,0 +1,20 @@
+Inter-State Probability Transactions under ONORC plan during Jul 2021 [Government Dataset]
+
+Dataset Description:
+This report analyzes state probability transaction data between different Indian states. The dataset consists of 315 rows and 7 columns, including home state, sale state, transaction count, and (month, year).
+
+The columns in our dataset are homestate code, salestate code, month, year.
+
+Observations:
+
+Delhi and Uttar Pradesh dominate in terms of transactions.
+
+Although there are variations by state, there was no statistically significant difference between the major states.
+
+Smaller states like Goa and Daman & Diu have significantly fewer transactions.
+
+The dataset is complete with no null values and is very clean.
+
+There are no duplicate entries.
+
+The transaction count is much more in big states
