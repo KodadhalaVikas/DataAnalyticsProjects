@@ -1,0 +1,45 @@
+Description:
+The Midmarks dataset contains midterm exam marks for students in different sections. The columns of the dataset are:
+
+S.NO: Serial number of students
+
+Section: Section name
+
+DV, M-II, PP, BEEE, FL, PEMS: Subject names with corresponding scores
+
+Observation:
+The dataset contains students' midterm marks for multiple subjects.
+
+Missing values: Some subjects had missing values in marks, which were handled during analysis.
+
+Marks distribution: Histograms and total plots showed normal mark distribution patterns.
+
+Observed distributions for the different analysis of different subjects.
+
+Statistical Tests on Midmarks dataset
+Dataset: Midmarks.csv
+Dataset Description:
+This dataset describes the midmarks scores of students from different sections. The columns of the dataset are:
+
+S.No: Serial number of students
+
+Section: Section name
+
+Subjects: DV, M-II, PP, BEEE, FL, FRMS
+
+Additional Data: Grading details, total marks, etc.
+
+Observations:
+1) t-tests:
+t-tests were performed to compare the mean marks between two subjects or sections and to check various parameters.
+
+The differences were statistically significant.
+
+2) χ² (Chi-square) tests:
+χ² tests were conducted to assess the independence between categorical variables such as marks.
+
+Findings:
+
+Some subjects had worse performance in DV subject.
+
+Subjects with p-value < 0.05 indicated a statistically significant association
