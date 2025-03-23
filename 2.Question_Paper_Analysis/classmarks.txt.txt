@@ -1,0 +1,45 @@
+Description:
+
+Dataset contains 86 entries and 12 columns.
+
+The "Total" column seems to represent the total marks.
+
+Other columns represent:
+
+Q1aM4 - marks for question 1a (out of 4)
+
+Q1bM6 - marks for question 1b (out of 6)
+
+Q2aM6 - marks for question 2a (out of 6)
+
+Q2bM4 - marks for question 2b (out of 4)
+
+Q3aM5 - marks for question 3a (out of 5)
+
+Q3bM5 - marks for question 3b (out of 5)
+
+Q4aM3 - marks for question 4a (out of 3)
+
+Q4bM7 - marks for question 4b (out of 7)
+
+Q5M10 - marks for question 5 (out of 10)
+
+Q6aM4 - marks for question 6a (out of 4)
+
+Q6bM6 - marks for question 6b (out of 6)
+
+Dataset size:
+(86 × 12 columns)
+Dataset Observation:
+
+Total marks distribution:
+
+The total marks range from 3 to 40, with an average of ≈ 29.36.
+
+Most students scored between 22 and 34, indicating a fairly consistent performance.
+
+Missing data:
+
+We remove the missing values and replace them with mean values.
+
+Q5 has the highest scores, where it is considered to be an easy one.
